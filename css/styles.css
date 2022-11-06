@@ -8,6 +8,7 @@
     --team-background-color:#F5F4FA;
     --hero-background-color:#2F303A;
     --border-color: #eeeeee;
+    --header-border-color: #ECECEC;
 }
 
 body {
@@ -39,6 +40,7 @@ ul {
 .header {
     width: 100%;
     background-color: var(--white-color);
+    border: 1px solid var(--header-border-color);
 }
 
 .container {
