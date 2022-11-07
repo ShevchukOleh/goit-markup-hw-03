@@ -38,22 +38,19 @@ ul {
 }
 
 .header {
-    width: 100%;
-    background-color: var(--white-color);
     border: 1px solid var(--header-border-color);
 }
 
 .container {
-    box-sizing: border-box;
     width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    align-items: center;
 }
 
 .navigation {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -65,8 +62,6 @@ ul {
     color: var(--text-color);
     text-decoration: none;
     margin-right: 93px;
-    margin-top: 24px;
-    margin-bottom: 25px;
 }
 
 .navigate-list {
@@ -85,7 +80,8 @@ ul {
     letter-spacing: 0.02em;
     color: var(--text-color);
     text-decoration: none;
-    padding: 15px 0;
+    display: inline-block;
+    padding: 32px 0;
 }
 
 .navigate-studio:active {
@@ -103,7 +99,8 @@ ul {
     letter-spacing: 0.02em;
     color: var(--text-color);
     text-decoration: none;
-    padding: 15px 0;
+    display: inline-block;
+    padding: 32px 0;
 }
 
 .navigate-portfolio:hover,
@@ -121,7 +118,8 @@ ul {
     letter-spacing: 0.02em;
     color: var(--text-color);
     text-decoration: none;
-    padding: 15px 0;
+    display: inline-block;
+    padding: 32px 0;
 }
 
 .navigate-contacts:hover,
@@ -136,7 +134,6 @@ ul {
     list-style: none;
     display: flex;
     margin-left: auto;
-    padding: 0%;
 }
 
 .contacts li:not(:last-child) {
@@ -172,8 +169,8 @@ ul {
 }
 
 .hero {
+    padding: 200px 0;
     background: var(--hero-background-color);
-    width: 100%;
     text-align: center;
 }
 
@@ -186,7 +183,7 @@ ul {
     color: var(--white-color);
     text-transform: uppercase;
     margin-bottom: 30px;
-    padding-top: 200px;
+    justify-content: center;
 }
 
 .button-order {
@@ -201,13 +198,21 @@ ul {
     border: none;
     cursor: pointer;
     padding: 10px 32px;
-    margin-bottom: 200px;
 }
 
 .button-order:hover,
 .button-order:focus {
     color: var(--color-blue);
     background: var(--white-color);
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section.service {
+    padding-top: 0;
 }
 
 .feature {
@@ -230,19 +235,16 @@ ul {
 .list {
     list-style: none;
     display: flex;
-    padding-bottom: 94px;
 }
 
 .list-features {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding-top: 94px;
 }
 
 .list-features li:not(:last-child) {
     margin-right: 30px;
-    margin-bottom: 94px;
 }
 
 .list {
@@ -273,7 +275,6 @@ ul {
     letter-spacing: 0.03em;
     color: var(--text-color);
     margin-bottom: 50px;
-    padding-top: 94px;
 }
 
 .card {
@@ -319,10 +320,6 @@ ul {
     color: var(--color-blue);
 }
 
-.footer-logo {
-    padding-top: 60px;
-}
-
 .list-address {
  list-style: none;
 }
@@ -335,13 +332,11 @@ ul {
     margin-top: 20px;
 }
 
-.list-address:last-child {
-    padding-bottom: 60px;
-}
-
 .address {
     color: var(--communication-color);
-    background-color: var(--hero-background-color);  
+    background-color: var(--hero-background-color); 
+    padding-top: 60px;
+    padding-bottom: 60px; 
 }
 
 .street {
@@ -384,7 +379,6 @@ ul {
 .filter-list {
     list-style: none;
     display: flex;
-    padding-top: 94px;
     justify-content: center;
 }
 
@@ -448,9 +442,9 @@ ul {
 }
 
 .border {
-    border-bottom: 2px solid var(--border-color);
-    border-left: 2px solid var(--border-color);
-    border-right: 2px solid var(--border-color); 
+    border-bottom: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color); 
 }
 
 .portfolio-link {
