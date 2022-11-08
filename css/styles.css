@@ -380,6 +380,7 @@ ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .filter-list li:not(:last-child) {
@@ -398,7 +399,6 @@ ul {
     border: none;
     padding: 6px 22px;
     border-radius: 4px;
-    margin-bottom: 50px;
 }
 
 .filter-button.all {
